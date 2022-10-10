@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    background-color:gainsboro;
+}
+.cont{
+    width: 1300px;
+    height: auto;
+    background-color:white;
+    margin: auto;
+}
+.logo{
+    float: left;
+    padding: 15px;
+  
+}
+.serach{
+    float: right;
+    padding: 55px;
+    padding-top: 55px;
+}
+.clearfix{
+    clear: both;
+}
+.nav{
+    background-color:cornflowerblue;
+}
+.nav>ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.nav>ul>li{
+    display: inline-block;
+}
+.nav>ul>li>a{
+    color:white;
+    text-decoration:none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+}
+.nav>ul>li>a:hover{
+    background-color:orange;
+}
+/*Drop*/
+.drop{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    position: absolute;
+    display: none;
+}
+.drop>li>a{
+    color:white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+    background-color: blue;
+}
+.drop>li>a:hover{
+    background-color: orange;
+}
+.nav>ul>li:hover .drop{
+    display: block;
+}
+/* Banner*/
+.banner{
+    width: 1300px;
+    height: 300px;
+    overflow: hidden;
+}
+.banner>img{
+    width: 100%;
+    height: auto;
+}
+.contentholder{
+    background-color: blue;
+
+}
+.content{
+    width: 1000px;
+    height: auto;
+    background-color: white;
+    padding: 25px;
+    float: left;
+}
+.content h2{
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+.content p{
+    font-size: small;
+    font-family: sans-serif;
+}
+.sidebar{
+    float: left;
+    padding: 25px;
+}
+.sidebar h3{
+    font-family: sans-serif;
+    color: white;
+}
+.sidebar ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.sidebar ul>li>a{
+    display: block;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    font-style: italic;
+    text-decoration: none;
+}
+.mainfooter{
+    background-color:black ;
+    color: white;
+    width: 1250px;
+    height: auto;
+    padding: 25px;
+}
+.footerbox{
+    width: 312.5px;
+    height: auto;
+    float: left;
+    font-family: sans-serif;
+}
+.footerbox ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.footerbox ul>li>a{
+    display: block;
+    font-size: small;
+    margin-bottom: 5px;
+    color: white;
+    text-decoration: none;
+}
+.copyright{
+    font-family: sans-serif;
+    padding: 25px;
+    text-align: center;
+    background-color: crimson;
+    color: white;
+}
+.copyright p{
+    margin: 0px;
+}
